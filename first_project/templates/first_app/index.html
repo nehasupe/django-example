@@ -1,0 +1,18 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Djguitar</title>
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+  </head>
+  <body>
+    <h1>this is django guitar</h1>
+    {{ insert_me }}
+    <img class="imgid" src="{% static "images/djangoguitar.jpg" %}" alt="Uh oh! didn't show.">
+    <a href="anotherpage.html">click </a>
+
+  </body>
+</html>
